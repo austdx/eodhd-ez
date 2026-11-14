@@ -4,7 +4,7 @@ from typing import *
 import pandas as pd
 from eodhd import APIClient
 
-from eodhd_ez import Period
+from eodhd_ez.typing import Period
 from eodhd_ez.utils import get_max_interval_dates
 
 

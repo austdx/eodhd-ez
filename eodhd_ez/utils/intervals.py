@@ -3,7 +3,7 @@ from typing import *
 
 from dateutil.relativedelta import relativedelta
 
-from eodhd_ez import Period
+from eodhd_ez.typing import Period
 
 
 def get_max_days_from_period(period: Period):
