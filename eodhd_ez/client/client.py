@@ -5,11 +5,11 @@ import pandas as pd
 import requests
 from eodhd import APIClient
 
-from eodhd_ez import ExchangeFilters, Period, TickerFilters
 from eodhd_ez.client.base_api import BaseAPI
 from eodhd_ez.exchanges import get_exchanges, get_exchanges_df
 from eodhd_ez.historical_data import get_intraday_historical_data
 from eodhd_ez.tickers import get_tickers, get_tickers_df
+from eodhd_ez.typing import ExchangeFilters, Period, TickerFilters
 
 
 class EODHDEZClient(object):
